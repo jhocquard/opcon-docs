@@ -39,12 +39,7 @@ The following requirements apply to all Windows-based installations:
 | Component | Requirement |
 | - | - |
 | Operating system | Windows Server 2012 R2 or greater |
-| .NET Core Runtime | .NET Core & ASP .NET Core 3.0 Runtime or greater |
 | .NET Framework Runtime |  .NET Framework 4.5 or greater |
-
-:::note
-The **SMA OpCon Install** comes packaged with the .NET Core and .NET Framework requirements and will prompt to install them if they are not found on the server.
-:::
 
 ## Database Requirements
 
@@ -58,7 +53,6 @@ For any edition of SQL Server, customers must set up both SQL Server and OpCon m
 
 The database must be one of the following:
 
-- Microsoft SQL Server version 2012 with Service Pack 3
 - Microsoft SQL Server version 2014 with the most recent Service Pack
     applied
 - Microsoft SQL Server version 2016 with the most recent Service Pack
@@ -66,6 +60,8 @@ The database must be one of the following:
 - Microsoft SQL Server version 2017 with the most recent Service Pack
     applied
 - Microsoft SQL Server version 2019 with the most recent Service Pack
+    applied
+- Microsoft SQL Server version 2022 with the most recent Service Pack
     applied
 
 :::caution
